@@ -13,8 +13,8 @@
 
 ## Array
 
-An **array** is a data structure that stores elements of the same type in contiguous memory.  
-Python’s built-in `list` can act like a dynamic array, but you can also use the `array` module for type-restricted arrays.
+- An **array** is a data structure that stores elements of the same type in contiguous memory.  
+- Python’s built-in `list` can act like a dynamic array, but you can also use the `array` module for type-restricted arrays.
 
 ### Example: Creating an Array
 
@@ -41,7 +41,7 @@ print(my_array.tolist()) # Convert to Python list
 
 ## List
 
-A **list** is a collection of ordered, mutable (changeable) items that can contain mixed data types.
+- A **list** is a collection of ordered, mutable (changeable) items that can contain mixed data types.
 
 ### Example: Creating a List
 
@@ -49,4 +49,69 @@ A **list** is a collection of ordered, mutable (changeable) items that can conta
 fruits = ['apple', 'banana', 'cherry']
 numbers = [1, 2, 3, 4]
 mixed = [1, 'hello', 3.14, True]
+```
+
+### Accessing and Modifying Lists
+
+``` python
+print(fruits[0])       # Access first element
+fruits[1] = 'mango'    # Modify an element
+print(fruits[-1])      # Access last element
+```
+
+### Common List Methods
+
+``` python
+fruits.append('grape')     # Add an item
+fruits.remove('apple')     # Remove an item
+fruits.pop()               # Remove last item
+fruits.insert(1, 'kiwi')   # Insert item at position
+fruits.sort()              # Sort list
+fruits.reverse()           # Reverse order
+print(len(fruits))         # Length of list
+```
+
+### List Comprehension
+
+``` python
+squares = [x**2 for x in range(5)]
+print(squares)   # Output: [0, 1, 4, 9, 16]
+``` 
+---
+
+## String
+
+- A ***string*** is a sequence of Unicode characters.
+- Strings are immutable — meaning they cannot be changed after creation.
+
+### Creating and Accessing Strings
+
+``` python
+text = "Hello, World!"
+print(text[0])        # 'H'
+print(text[-1])       # '!'
+print(text[0:5])      # 'Hello'
+```
+
+### Common String Methods
+
+``` python
+text = "  Python Programming  "
+
+print(text.lower())      # '  python programming  '
+print(text.upper())      # '  PYTHON PROGRAMMING  '
+print(text.strip())      # Remove whitespace
+print(text.replace("Python", "Java"))  # Replace word
+print(text.split())      # Split into list
+print(" ".join(['I', 'love', 'Python'])) # Join list to string
+```
+
+### String Formatting
+
+``` python
+name = "Alice"
+age = 25
+
+print(f"My name is {name} and I am {age} years old.")  # f-string
+print("My name is {} and I am {} years old.".format(name, age))
 ```
