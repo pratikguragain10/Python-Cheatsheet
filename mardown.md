@@ -159,9 +159,9 @@ print("My name is {} and I am {} years old.".format(name, age))
 ```
 ---
 
-## Quick Summary :joy:
+## Quick Summary
 
-| Table Of Contents | Description | Example |
+| Table Of Contents :joy: | Description | Example |
 | ------------------ | ----------- | ----------- |
 | [Array](#array) | Type-restricted collection | array('i', [1,2,3]) |
 | [Dictionary](#dictionary) | Key-value pairs | {'a': 1, 'b': 2} |
