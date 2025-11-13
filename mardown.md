@@ -165,7 +165,7 @@ print("My name is {} and I am {} years old.".format(name, age))
 | ------------------ | ----------- | ----------- |
 | [Array](#array) | Type-restricted collection | array('i', [1,2,3]) |
 | [Dictionary](#dictionary) | Key-value pairs | {'a': 1, 'b': 2} |
-| [List](#list) | List basics and operations | [1, 'a', 3.5] |
-| [String](#string) | String handling and methods | "hello"  |
+| [List](#list) | Ordered, mutable | [1, 'a', 3.5] |
+| [String](#string) | Immutable sequence of chars | "hello"  |
 
 ---
