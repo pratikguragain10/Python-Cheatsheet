@@ -115,3 +115,46 @@ age = 25
 print(f"My name is {name} and I am {age} years old.")  # f-string
 print("My name is {} and I am {} years old.".format(name, age))
 ```
+---
+
+## Dictionary
+
+- A ***dictionary*** stores data in key-value pairs.
+- Keys must be unique and immutable, while values can be of any data type.
+
+### Creating Dictionary
+
+``` python
+person = {
+    'name': 'John',
+    'age': 30,
+    'city': 'New York'
+}
+```
+
+### Accessing and Modifying
+
+``` python
+print(person['name'])         # Access value
+person['age'] = 31            # Update value
+person['email'] = 'john@example.com'  # Add new key
+```
+
+### Common Dictionary 
+
+``` python
+print(person.keys())      # Get all keys
+print(person.values())    # Get all values
+print(person.items())     # Get key-value pairs
+person.pop('city')        # Remove a key
+person.update({'age': 32, 'country': 'USA'})  # Update multiple
+```
+
+### Dictionary Comprehension
+
+``` python
+squares = {x: x**2 for x in range(5)}
+print(squares)   # Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+```
+
+---
