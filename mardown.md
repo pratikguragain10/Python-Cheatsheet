@@ -21,3 +21,14 @@ In Python, built-in lists works or functions like an dynamic arrays. While Pytho
 
 1. The `array` module:
 
+```Python
+    " Sample of creation of array using import array"
+
+    import array
+
+    # Create an array of signed integers ('i')
+
+    my_array = array.array('i', [1, 2, 3, 4, 5])
+
+    print(my_array)
+```
