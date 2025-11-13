@@ -18,7 +18,7 @@ Python’s built-in `list` can act like a dynamic array, but you can also use th
 
 ### Example: Creating an Array
 
-```python
+``` python
 import array
 
 # Create an array of signed integers ('i')
@@ -30,7 +30,7 @@ print(my_array[0])     # Access first element
 
 ### Common Array Operations
 
-```python
+``` python
 my_array.append(6)       # Add an element
 my_array.remove(2)       # Remove an element
 my_array.pop()           # Remove last element
@@ -45,7 +45,7 @@ A **list** is a collection of ordered, mutable (changeable) items that can conta
 
 ### Example: Creating a List
 
-```python
+``` python
 fruits = ['apple', 'banana', 'cherry']
 numbers = [1, 2, 3, 4]
 mixed = [1, 'hello', 3.14, True]
